@@ -1,10 +1,9 @@
-const dato = 10; // Número del que queremos calcular el factorial
-let result = 1;
-let i = dato;
+let num = 10; // Número del que queremos calcular el factorial
+let factorial = 1;
 
-while (i > 0) {
-  result *= i;
-  i--;
+while (num > 1) {
+  factorial *= num;
+  num--;
 }
 
-console.log(result);
+console.log(factorial); // Factorial de 10 = 3628800
