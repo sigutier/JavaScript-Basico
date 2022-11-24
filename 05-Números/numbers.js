@@ -1,13 +1,12 @@
-let alturaCm = 163;
-let alturaM = 1.63;
-let pesoKg = 55.5;
+const alturaCm = 163;
+const alturaM = 1.63;
+const pesoKg = 55.5;
 
-let redondeoArriba = Math.ceil(alturaM);
+const redondeoArriba = Math.ceil(alturaM);
 console.log(redondeoArriba);
 
-let redondeoAbajo = Math.floor(pesoKg);
+const redondeoAbajo = Math.floor(pesoKg);
 console.log(redondeoAbajo);
 
-let maxValor = Number.MAX_VALUE;
-console.log(maxValor);
-console.log(maxValor + 1);
+const sonIguales = Number.MAX_VALUE + 1 === Number.MAX_VALUE;
+console.log(sonIguales);
